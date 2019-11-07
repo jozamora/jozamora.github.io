@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Web Visualization Dashboard</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">Latitude</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+	  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="temperature.html">Max Temperature</a></li>
+          <li><a href="humidity.html">Humidity</a></li>
+          <li><a href="cloudiness.html">Cloudiness</a></li>
+		  <li><a href="wind_speed.html">Wind Speed</a></li>
+        </ul>
+      </li>
+      <li><a href="comparison.html">Comparison</a></li>
+      <li><a href="data.html">Data</a></li>
+    </ul>
+  </div>
+</nav>
+  
+  
+	<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-8">
+			<div class="card">
+			  <div class="card-body">
+				<h2 class="card-title">Cloudiness</h2>
+				<br>
+				<hr>
+				<br>
+				<br>
+				<img src="images\Fig3.PNG" width="50%" height="50%" alt="test" class="pull-left">
+					<p class="card-text">
+					In terms of cloudiness versus lattitude, there seems to be no relation or not one where 
+					we could comfortably make an assertion based on the data we have. It appears as though 
+					cloudiness happens through other factors with little relation to latitude.
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					</p>
+				
+	  </div>
+	</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="card">
+			  <div class="card-body">
+				<h2 class="card-title">Visualizations</h2>
+				<hr>
+				<div class="sidebar">
+				<a href="temperature.html" class="card-link"><img src="images\Fig1.PNG" width="35%" height="35%" alt="test"></a>
+				<a href="humidity.html" class="card-link"><img src="images\Fig2.PNG" width="35%" height="35%" alt="test"></a>
+				<a href="cloudiness.html" class="card-link"><img src="images\Fig3.PNG" width="35%" height="35%" alt="test"></a>
+				<a href="wind_speed.html" class="card-link"><img src="images\Fig4.PNG" width="35%" height="35%" alt="test"></a>
+		  </div></div>
+		</div>
+		</div>
+</div>
+</body>
+</html>

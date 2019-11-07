@@ -1,0 +1,139 @@
+<table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+.xl631069
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl641069
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl651069
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+body{
+
+	background: beige;
+	
+}
+
+
+.navbar {
+  /* padding: 10px; */
+  padding-left: 100px;
+  background: #000;
+}
+
+.navbar-brand {
+	background-color: #000066;
+	font-size: 25pt;
+	font-weight: 700 ;
+	font-family: Georgia, serif; 
+	font-variant: small-caps;
+	
+}
+
+.card {
+	background: white;
+	padding: 50px;
+	
+	
+}
+
+.card-title{
+	font-size: 20pt;
+	font-weight: 600 ;
+	font-family: Impact, Charcoal, sans-serif;
+	color: #006699;
+	letter-spacing: 3px;
+	
+}
+
+.card-text {
+	color: gray;
+	font-size: 12pt;
+	font-family: "Palatino Linotype","Book Antiqua", Palatino, serif;
+	
+}
+
+/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+/* .navbar li { */
+  /* display: inline-block; */
+  /* padding: 10px; */
+  /* margin-right: 10px; */
+  /* margin-left: 10px; */
+  /* cursor: pointer; */
+  /* border-radius: 3px; */
+/* } */
+
+/* Getting rid of the default link styles here */
+/* .navbar li a { */
+  /* color: #000; */
+  /* text-decoration: none; */
+/* } */
+
+/* Styling the header, giving it a height, a background color, and some top padding */
+/* .header { */
+  /* height: 200px; */
+  /* padding-top: 20px; */
+  /* background: #cdcdcd; */
+/* } */
+
+/* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
+/* .header h1 { */
+  /* padding: 60px; */
+  /* margin: 0; */
+  /* color: #000; */
+  /* text-align: center; */
+/* } */
+
+/* Giving the .post element margin on 3 sides */
+/* .post { */
+  /* margin-top: 50px; */
+  /* margin-right: 100px; */
+  /* margin-left: 100px; */
+/* } */
